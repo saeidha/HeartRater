@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3652490A2C381D86005F3FF3 /* HeartControl Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 365249092C381D86005F3FF3 /* HeartControl Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3652490F2C381D86005F3FF3 /* HeartControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652490E2C381D86005F3FF3 /* HeartControlApp.swift */; };
+		365249112C381D86005F3FF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365249102C381D86005F3FF3 /* ContentView.swift */; };
+		365249132C381D89005F3FF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365249122C381D89005F3FF3 /* Assets.xcassets */; };
+		365249162C381D89005F3FF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365249152C381D89005F3FF3 /* Preview Assets.xcassets */; };
+		365249202C381D89005F3FF3 /* HeartControl_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652491F2C381D89005F3FF3 /* HeartControl_Watch_AppTests.swift */; };
+		3652492A2C381D89005F3FF3 /* HeartControl_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365249292C381D89005F3FF3 /* HeartControl_Watch_AppUITests.swift */; };
+		3652492C2C381D89005F3FF3 /* HeartControl_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652492B2C381D89005F3FF3 /* HeartControl_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3652490B2C381D86005F3FF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 365248FD2C381D85005F3FF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 365249082C381D86005F3FF3;
+			remoteInfo = "HeartControl Watch App";
+		};
+		3652491C2C381D89005F3FF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 365248FD2C381D85005F3FF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 365249082C381D86005F3FF3;
+			remoteInfo = "HeartControl Watch App";
+		};
+		365249262C381D89005F3FF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 365248FD2C381D85005F3FF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 365249082C381D86005F3FF3;
+			remoteInfo = "HeartControl Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		365249322C381D89005F3FF3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3652490A2C381D86005F3FF3 /* HeartControl Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		365249032C381D86005F3FF3 /* HeartControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		365249092C381D86005F3FF3 /* HeartControl Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeartControl Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3652490E2C381D86005F3FF3 /* HeartControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartControlApp.swift; sourceTree = "<group>"; };
+		365249102C381D86005F3FF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		365249122C381D89005F3FF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		365249152C381D89005F3FF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3652491B2C381D89005F3FF3 /* HeartControl Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HeartControl Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3652491F2C381D89005F3FF3 /* HeartControl_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartControl_Watch_AppTests.swift; sourceTree = "<group>"; };
+		365249252C381D89005F3FF3 /* HeartControl Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HeartControl Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		365249292C381D89005F3FF3 /* HeartControl_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartControl_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		3652492B2C381D89005F3FF3 /* HeartControl_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartControl_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		365249062C381D86005F3FF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365249182C381D89005F3FF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365249222C381D89005F3FF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		365248FC2C381D85005F3FF3 = {
+			isa = PBXGroup;
+			children = (
+				3652490D2C381D86005F3FF3 /* HeartControl Watch App */,
+				3652491E2C381D89005F3FF3 /* HeartControl Watch AppTests */,
+				365249282C381D89005F3FF3 /* HeartControl Watch AppUITests */,
+				365249042C381D86005F3FF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		365249042C381D86005F3FF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				365249032C381D86005F3FF3 /* HeartControl.app */,
+				365249092C381D86005F3FF3 /* HeartControl Watch App.app */,
+				3652491B2C381D89005F3FF3 /* HeartControl Watch AppTests.xctest */,
+				365249252C381D89005F3FF3 /* HeartControl Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3652490D2C381D86005F3FF3 /* HeartControl Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				3652490E2C381D86005F3FF3 /* HeartControlApp.swift */,
+				365249102C381D86005F3FF3 /* ContentView.swift */,
+				365249122C381D89005F3FF3 /* Assets.xcassets */,
+				365249142C381D89005F3FF3 /* Preview Content */,
+			);
+			path = "HeartControl Watch App";
+			sourceTree = "<group>";
+		};
+		365249142C381D89005F3FF3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				365249152C381D89005F3FF3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3652491E2C381D89005F3FF3 /* HeartControl Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3652491F2C381D89005F3FF3 /* HeartControl_Watch_AppTests.swift */,
+			);
+			path = "HeartControl Watch AppTests";
+			sourceTree = "<group>";
+		};
+		365249282C381D89005F3FF3 /* HeartControl Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				365249292C381D89005F3FF3 /* HeartControl_Watch_AppUITests.swift */,
+				3652492B2C381D89005F3FF3 /* HeartControl_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "HeartControl Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		365249022C381D86005F3FF3 /* HeartControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 365249332C381D89005F3FF3 /* Build configuration list for PBXNativeTarget "HeartControl" */;
+			buildPhases = (
+				365249012C381D86005F3FF3 /* Resources */,
+				365249322C381D89005F3FF3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3652490C2C381D86005F3FF3 /* PBXTargetDependency */,
+			);
+			name = HeartControl;
+			productName = HeartControl;
+			productReference = 365249032C381D86005F3FF3 /* HeartControl.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		365249082C381D86005F3FF3 /* HeartControl Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3652492F2C381D89005F3FF3 /* Build configuration list for PBXNativeTarget "HeartControl Watch App" */;
+			buildPhases = (
+				365249052C381D86005F3FF3 /* Sources */,
+				365249062C381D86005F3FF3 /* Frameworks */,
+				365249072C381D86005F3FF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HeartControl Watch App";
+			productName = "HeartControl Watch App";
+			productReference = 365249092C381D86005F3FF3 /* HeartControl Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3652491A2C381D89005F3FF3 /* HeartControl Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 365249362C381D89005F3FF3 /* Build configuration list for PBXNativeTarget "HeartControl Watch AppTests" */;
+			buildPhases = (
+				365249172C381D89005F3FF3 /* Sources */,
+				365249182C381D89005F3FF3 /* Frameworks */,
+				365249192C381D89005F3FF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3652491D2C381D89005F3FF3 /* PBXTargetDependency */,
+			);
+			name = "HeartControl Watch AppTests";
+			productName = "HeartControl Watch AppTests";
+			productReference = 3652491B2C381D89005F3FF3 /* HeartControl Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		365249242C381D89005F3FF3 /* HeartControl Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 365249392C381D89005F3FF3 /* Build configuration list for PBXNativeTarget "HeartControl Watch AppUITests" */;
+			buildPhases = (
+				365249212C381D89005F3FF3 /* Sources */,
+				365249222C381D89005F3FF3 /* Frameworks */,
+				365249232C381D89005F3FF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				365249272C381D89005F3FF3 /* PBXTargetDependency */,
+			);
+			name = "HeartControl Watch AppUITests";
+			productName = "HeartControl Watch AppUITests";
+			productReference = 365249252C381D89005F3FF3 /* HeartControl Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		365248FD2C381D85005F3FF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					365249022C381D86005F3FF3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					365249082C381D86005F3FF3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3652491A2C381D89005F3FF3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 365249082C381D86005F3FF3;
+					};
+					365249242C381D89005F3FF3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 365249082C381D86005F3FF3;
+					};
+				};
+			};
+			buildConfigurationList = 365249002C381D85005F3FF3 /* Build configuration list for PBXProject "HeartControl" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 365248FC2C381D85005F3FF3;
+			productRefGroup = 365249042C381D86005F3FF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				365249022C381D86005F3FF3 /* HeartControl */,
+				365249082C381D86005F3FF3 /* HeartControl Watch App */,
+				3652491A2C381D89005F3FF3 /* HeartControl Watch AppTests */,
+				365249242C381D89005F3FF3 /* HeartControl Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		365249012C381D86005F3FF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365249072C381D86005F3FF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365249162C381D89005F3FF3 /* Preview Assets.xcassets in Resources */,
+				365249132C381D89005F3FF3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365249192C381D89005F3FF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365249232C381D89005F3FF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		365249052C381D86005F3FF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365249112C381D86005F3FF3 /* ContentView.swift in Sources */,
+				3652490F2C381D86005F3FF3 /* HeartControlApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365249172C381D89005F3FF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365249202C381D89005F3FF3 /* HeartControl_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365249212C381D89005F3FF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3652492A2C381D89005F3FF3 /* HeartControl_Watch_AppUITests.swift in Sources */,
+				3652492C2C381D89005F3FF3 /* HeartControl_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3652490C2C381D86005F3FF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 365249082C381D86005F3FF3 /* HeartControl Watch App */;
+			targetProxy = 3652490B2C381D86005F3FF3 /* PBXContainerItemProxy */;
+		};
+		3652491D2C381D89005F3FF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 365249082C381D86005F3FF3 /* HeartControl Watch App */;
+			targetProxy = 3652491C2C381D89005F3FF3 /* PBXContainerItemProxy */;
+		};
+		365249272C381D89005F3FF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 365249082C381D86005F3FF3 /* HeartControl Watch App */;
+			targetProxy = 365249262C381D89005F3FF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3652492D2C381D89005F3FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3652492E2C381D89005F3FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		365249302C381D89005F3FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeartControl Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = HW2B39KXKS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HeartControl;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saeid.HeartControl.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		365249312C381D89005F3FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeartControl Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = HW2B39KXKS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HeartControl;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saeid.HeartControl.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		365249342C381D89005F3FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HW2B39KXKS;
+				INFOPLIST_KEY_CFBundleDisplayName = HeartControl;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saeid.HeartControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		365249352C381D89005F3FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HW2B39KXKS;
+				INFOPLIST_KEY_CFBundleDisplayName = HeartControl;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saeid.HeartControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		365249372C381D89005F3FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HW2B39KXKS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saeid.HeartControl-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartControl Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeartControl Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		365249382C381D89005F3FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HW2B39KXKS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saeid.HeartControl-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartControl Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeartControl Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		3652493A2C381D89005F3FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HW2B39KXKS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saeid.HeartControl-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "HeartControl Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		3652493B2C381D89005F3FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HW2B39KXKS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saeid.HeartControl-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "HeartControl Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		365249002C381D85005F3FF3 /* Build configuration list for PBXProject "HeartControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3652492D2C381D89005F3FF3 /* Debug */,
+				3652492E2C381D89005F3FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3652492F2C381D89005F3FF3 /* Build configuration list for PBXNativeTarget "HeartControl Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365249302C381D89005F3FF3 /* Debug */,
+				365249312C381D89005F3FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		365249332C381D89005F3FF3 /* Build configuration list for PBXNativeTarget "HeartControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365249342C381D89005F3FF3 /* Debug */,
+				365249352C381D89005F3FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		365249362C381D89005F3FF3 /* Build configuration list for PBXNativeTarget "HeartControl Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365249372C381D89005F3FF3 /* Debug */,
+				365249382C381D89005F3FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		365249392C381D89005F3FF3 /* Build configuration list for PBXNativeTarget "HeartControl Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3652493A2C381D89005F3FF3 /* Debug */,
+				3652493B2C381D89005F3FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 365248FD2C381D85005F3FF3 /* Project object */;
+}
