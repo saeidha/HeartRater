@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3649C3432C38893E0045C1B8 /* HartRateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3649C3422C38893E0045C1B8 /* HartRateHelper.swift */; };
+		3649C3462C38A0BC0045C1B8 /* HeartRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3649C3452C38A0BC0045C1B8 /* HeartRateView.swift */; };
 		3652490A2C381D86005F3FF3 /* HeartControl Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 365249092C381D86005F3FF3 /* HeartControl Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3652490F2C381D86005F3FF3 /* HeartControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652490E2C381D86005F3FF3 /* HeartControlApp.swift */; };
 		365249112C381D86005F3FF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365249102C381D86005F3FF3 /* ContentView.swift */; };
@@ -15,6 +17,8 @@
 		365249202C381D89005F3FF3 /* HeartControl_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652491F2C381D89005F3FF3 /* HeartControl_Watch_AppTests.swift */; };
 		3652492A2C381D89005F3FF3 /* HeartControl_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365249292C381D89005F3FF3 /* HeartControl_Watch_AppUITests.swift */; };
 		3652492C2C381D89005F3FF3 /* HeartControl_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652492B2C381D89005F3FF3 /* HeartControl_Watch_AppUITestsLaunchTests.swift */; };
+		36925C0D2C3920C900E3B05B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36925C0C2C3920C900E3B05B /* SettingsView.swift */; };
+		36925C102C3948F400E3B05B /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36925C0F2C3948F400E3B05B /* Setting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3649C3412C3888AA0045C1B8 /* HeartControl Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HeartControl Watch App.entitlements"; sourceTree = "<group>"; };
+		3649C3422C38893E0045C1B8 /* HartRateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HartRateHelper.swift; sourceTree = "<group>"; };
+		3649C3452C38A0BC0045C1B8 /* HeartRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateView.swift; sourceTree = "<group>"; };
 		365249032C381D86005F3FF3 /* HeartControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		365249092C381D86005F3FF3 /* HeartControl Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeartControl Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3652490E2C381D86005F3FF3 /* HeartControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartControlApp.swift; sourceTree = "<group>"; };
@@ -67,6 +74,8 @@
 		365249252C381D89005F3FF3 /* HeartControl Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HeartControl Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		365249292C381D89005F3FF3 /* HeartControl_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartControl_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		3652492B2C381D89005F3FF3 /* HeartControl_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartControl_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		36925C0C2C3920C900E3B05B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		36925C0F2C3948F400E3B05B /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +103,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3649C3442C38A0740045C1B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3649C3452C38A0BC0045C1B8 /* HeartRateView.swift */,
+				36925C0C2C3920C900E3B05B /* SettingsView.swift */,
+				365249102C381D86005F3FF3 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		365248FC2C381D85005F3FF3 = {
 			isa = PBXGroup;
 			children = (
@@ -118,8 +137,10 @@
 		3652490D2C381D86005F3FF3 /* HeartControl Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				36925C0E2C3948E400E3B05B /* Model */,
+				3649C3442C38A0740045C1B8 /* Views */,
+				3649C3412C3888AA0045C1B8 /* HeartControl Watch App.entitlements */,
 				3652490E2C381D86005F3FF3 /* HeartControlApp.swift */,
-				365249102C381D86005F3FF3 /* ContentView.swift */,
 				365249122C381D89005F3FF3 /* Assets.xcassets */,
 				365249142C381D89005F3FF3 /* Preview Content */,
 			);
@@ -149,6 +170,15 @@
 				3652492B2C381D89005F3FF3 /* HeartControl_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = "HeartControl Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		36925C0E2C3948E400E3B05B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3649C3422C38893E0045C1B8 /* HartRateHelper.swift */,
+				36925C0F2C3948F400E3B05B /* Setting.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +339,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36925C0D2C3920C900E3B05B /* SettingsView.swift in Sources */,
+				3649C3432C38893E0045C1B8 /* HartRateHelper.swift in Sources */,
+				36925C102C3948F400E3B05B /* Setting.swift in Sources */,
+				3649C3462C38A0BC0045C1B8 /* HeartRateView.swift in Sources */,
 				365249112C381D86005F3FF3 /* ContentView.swift in Sources */,
 				3652490F2C381D86005F3FF3 /* HeartControlApp.swift in Sources */,
 			);
@@ -471,6 +505,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HeartControl Watch App/HeartControl Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HeartControl Watch App/Preview Content\"";
@@ -478,6 +513,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = HeartControl;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please Confirm";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Access Hart rate";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -492,7 +529,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Debug;
 		};
@@ -501,6 +538,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HeartControl Watch App/HeartControl Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HeartControl Watch App/Preview Content\"";
@@ -508,6 +546,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = HeartControl;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please Confirm";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Access Hart rate";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -523,7 +563,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Release;
 		};
