@@ -9,11 +9,10 @@ import SwiftUI
 
 struct SettingsView: View {
     
-    @EnvironmentObject var setting: Setting
     @State var isSetMin: Bool = true
     @State var min: Double?
     @State var sliderValue: Double
-    
+    @Environment(NavigationCoordinator.self) var coordinator: NavigationCoordinator
     var body: some View {
         
         
@@ -29,36 +28,32 @@ struct SettingsView: View {
                     .bold()
                     .padding(.top, 5)
                 
-                Slider(value: $sliderValue, in: (self.isSetMin ? 100...160 : ((min ?? 130) + 1)...200), step: 5)
+                Slider(value: $sliderValue, in: (self.isSetMin ? 100...160 : ((min ?? 130))...200), step: 5)
                     .padding([.bottom, .leading, .trailing], 5)
                     .accentColor(self.isSetMin ? .green : .red)
                 
-                
                 if isSetMin {
-                    NavigationLink(destination: SettingsView(isSetMin: false, min: sliderValue, sliderValue: Double(self.setting.max))){
-                        
+                    Button {
+                        coordinator.push(.settingMax(minValue: $sliderValue.wrappedValue))
+                    } label: {
                         Text("Next")
                     }
-                    
                 }else{
-                    
                     Button {
-                        
-                        setting.min = Int(self.min ?? 0)
-                        setting.max = Int(sliderValue)
-                        
+                        coordinator.setting.min = Int(self.min ?? 0)
+                        coordinator.setting.max = Int(sliderValue)
+                        coordinator.popToRoot()
                     } label: {
                         
                         Text("Save")
                     }
                 }
-                
             }
         }
-        
+        .navigationBarBackButtonHidden()
     }
 }
 
 #Preview {
-    SettingsView(isSetMin: true, sliderValue: Double(120)).environmentObject(Setting())
+    SettingsView(isSetMin: true, sliderValue: Double(120)).environment(NavigationCoordinator())
 }

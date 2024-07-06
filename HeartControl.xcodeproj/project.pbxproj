@@ -17,6 +17,8 @@
 		365249202C381D89005F3FF3 /* HeartControl_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652491F2C381D89005F3FF3 /* HeartControl_Watch_AppTests.swift */; };
 		3652492A2C381D89005F3FF3 /* HeartControl_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365249292C381D89005F3FF3 /* HeartControl_Watch_AppUITests.swift */; };
 		3652492C2C381D89005F3FF3 /* HeartControl_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652492B2C381D89005F3FF3 /* HeartControl_Watch_AppUITestsLaunchTests.swift */; };
+		36706DC72C39B4ED00CA44AA /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36706DC62C39B4ED00CA44AA /* NavigationCoordinator.swift */; };
+		36706DC92C39B52E00CA44AA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36706DC82C39B52E00CA44AA /* HomeView.swift */; };
 		36925C0D2C3920C900E3B05B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36925C0C2C3920C900E3B05B /* SettingsView.swift */; };
 		36925C102C3948F400E3B05B /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36925C0F2C3948F400E3B05B /* Setting.swift */; };
 /* End PBXBuildFile section */
@@ -74,6 +76,8 @@
 		365249252C381D89005F3FF3 /* HeartControl Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HeartControl Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		365249292C381D89005F3FF3 /* HeartControl_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartControl_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		3652492B2C381D89005F3FF3 /* HeartControl_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartControl_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		36706DC62C39B4ED00CA44AA /* NavigationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
+		36706DC82C39B52E00CA44AA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		36925C0C2C3920C900E3B05B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		36925C0F2C3948F400E3B05B /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,9 +110,10 @@
 		3649C3442C38A0740045C1B8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3649C3452C38A0BC0045C1B8 /* HeartRateView.swift */,
-				36925C0C2C3920C900E3B05B /* SettingsView.swift */,
+				36706DCA2C39B86F00CA44AA /* Componenets */,
 				365249102C381D86005F3FF3 /* ContentView.swift */,
+				36706DC82C39B52E00CA44AA /* HomeView.swift */,
+				36925C0C2C3920C900E3B05B /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 				3649C3442C38A0740045C1B8 /* Views */,
 				3649C3412C3888AA0045C1B8 /* HeartControl Watch App.entitlements */,
 				3652490E2C381D86005F3FF3 /* HeartControlApp.swift */,
+				36706DC62C39B4ED00CA44AA /* NavigationCoordinator.swift */,
 				365249122C381D89005F3FF3 /* Assets.xcassets */,
 				365249142C381D89005F3FF3 /* Preview Content */,
 			);
@@ -170,6 +176,14 @@
 				3652492B2C381D89005F3FF3 /* HeartControl_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = "HeartControl Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		36706DCA2C39B86F00CA44AA /* Componenets */ = {
+			isa = PBXGroup;
+			children = (
+				3649C3452C38A0BC0045C1B8 /* HeartRateView.swift */,
+			);
+			path = Componenets;
 			sourceTree = "<group>";
 		};
 		36925C0E2C3948E400E3B05B /* Model */ = {
@@ -344,7 +358,9 @@
 				36925C102C3948F400E3B05B /* Setting.swift in Sources */,
 				3649C3462C38A0BC0045C1B8 /* HeartRateView.swift in Sources */,
 				365249112C381D86005F3FF3 /* ContentView.swift in Sources */,
+				36706DC92C39B52E00CA44AA /* HomeView.swift in Sources */,
 				3652490F2C381D86005F3FF3 /* HeartControlApp.swift in Sources */,
+				36706DC72C39B4ED00CA44AA /* NavigationCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
