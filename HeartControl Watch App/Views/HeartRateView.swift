@@ -15,10 +15,10 @@ struct HeartRateView: View {
             .font(.title2)
             .foregroundStyle(.red)
             .frame(width: 50, height: 50)
-            .scaleEffect(isAnimating ? 1.5 : 1)
+            .scaleEffect(isAnimating ? 1.2 : 1)
             .animation(
                 isAnimating ?
-                    .easeInOut(duration: 1).repeatForever(autoreverses: true) :
+                    .easeInOut(duration: 1.5).repeatForever(autoreverses: true) :
                         .default,
                 value: isAnimating
             )

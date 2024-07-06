@@ -17,11 +17,21 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 
-                HStack{
-                    ( Text("Low: ") + Text("\(setting.min)").bold().foregroundStyle(.green)).opacity(0.8)
-                    Spacer()
-                    (Text("High: ") + Text("\(setting.max)").bold().foregroundStyle(.red)).opacity(0.8)
-                }
+                        HStack{
+                            withAnimation{
+                                ( Text("Low: ") + Text("\(setting.min)")
+                                    .foregroundStyle(.green))
+                                    .font(.system(size: self.hartRateHelper.isStart ? 18 : 14))
+                                    .bold()
+                                    .opacity(0.8)
+                            }
+                            Spacer()
+                            withAnimation{
+                                (Text("High: ") + Text("\(setting.max)").foregroundStyle(.red)) .font(.system(size: self.hartRateHelper.isStart ? 18 : 14))
+                                    .bold()
+                                    .opacity(0.8)
+                            }
+                        }.padding([.top] , self.hartRateHelper.isStart ? 0 : 15)
                 Spacer()
                 HStack(alignment: .center, spacing: 10) {
                     
@@ -54,7 +64,6 @@ struct ContentView: View {
                     NavigationLink(destination: SettingsView(sliderValue: Double(self.setting.min))) {
                         Text("Settings")
                             .padding()
-                            .foregroundColor(.white)
                     }
                 }
                 //                    .sensoryFeedback(.impact(weight: .heavy, intensity: 0.9), trigger: self.hartRateHelper.alertHigh)
@@ -74,6 +83,7 @@ struct ContentView: View {
                 //                }
                 //            }
             }
+            
         }
         
     }
